@@ -1,0 +1,52 @@
+index.html<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: O Uso Consciente da Água</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Agrinho & A Água</h1>
+            <p>Preservando o futuro da nossa agricultura e do planeta</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#importancia">Importância</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#dicas">Dicas Práticas</a>
+    </nav>
+
+    <main class="container">
+        
+        <section id="importancia" class="card">
+            <h2>A Água na Agricultura</h2>
+            <p>A água é o recurso mais precioso para a vida e para a produção de alimentos. No projeto Agrinho, aprendemos que cuidar das nossas fontes de água é garantir que o campo continue próspero e que as cidades continuem abastecidas.</p>
+        </section>
+
+        <section id="sustentabilidade" class="card">
+            <h2>Tecnologias Sustentáveis</h2>
+            <p>Hoje, o campo utiliza tecnologias avançadas para economizar água, como a <strong>irrigação por gotejamento</strong> (que leva a água direto à raiz da planta) e o monitoramento do solo por sensores, evitando o desperdício.</p>
+        </section>
+
+        <section id="dicas" class="card">
+            <h2>Quiz da Água: Você economiza?</h2>
+            <p>Clique no botão abaixo para descobrir uma dica rápida de como você, sua escola ou sua família podem ajudar a preservar a água!</p>
+            
+            <button id="btn-dica">Gerar Dica Sustentável</button>
+            <p id="texto-dica" class="dica-oculta"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Aluno Consciente. Desenvolvido para a preservação do meio ambiente.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
